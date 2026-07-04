@@ -1,0 +1,55 @@
+# ───────────────────────────────
+# Terraform 기본 디렉토리/파일
+# ───────────────────────────────
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# ───────────────────────────────
+# Terraform 민감한 변수 파일 (개별 환경 설정 포함)
+# ───────────────────────────────
+*.tfvars
+*.tfvars.json
+
+# ───────────────────────────────
+# Terraform 로그/잠금/중간 파일
+# ───────────────────────────────
+.terraform.tfstate.lock.info
+crash.log
+crash.*.log
+*.tfplan
+
+# ───────────────────────────────
+# Terraform override 파일 (개인 설정)
+# ───────────────────────────────
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ───────────────────────────────
+# Terraform 사용자 설정
+# ───────────────────────────────
+.terraformrc
+terraform.rc
+
+# ───────────────────────────────
+# macOS 및 편집기 관련 불필요한 파일
+# ───────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+
+Terraform_Project/backend/.terraform/
+Terraform_Project/backend/.terraform/terraform.tfstate*
+Terraform_Project/backend/terraform.tfvars*
+
+Terraform_Project/environments/dev/.terraform/
+Terraform_Project/environments/dev/.terraform/terraform.tfstate*
+Terraform_Project/environments/dev/terraform.tfvars*
+
+Terraform_Project/environments/s3/.terraform/
+Terraform_Project/environments/s3/.terraform/terraform.tfstate*
+Terraform_Project/environments/s3/terraform.tfvars*docs/analysis/
