@@ -42,14 +42,4 @@ terraform.rc
 *.swp
 
 
-Terraform_Project/backend/.terraform/
-Terraform_Project/backend/.terraform/terraform.tfstate*
-Terraform_Project/backend/terraform.tfvars*
-
-Terraform_Project/environments/dev/.terraform/
-Terraform_Project/environments/dev/.terraform/terraform.tfstate*
-Terraform_Project/environments/dev/terraform.tfvars*
-
-Terraform_Project/environments/s3/.terraform/
-Terraform_Project/environments/s3/.terraform/terraform.tfstate*
-Terraform_Project/environments/s3/terraform.tfvars*docs/analysis/
+docs/analysis/
