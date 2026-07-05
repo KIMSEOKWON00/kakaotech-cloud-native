@@ -334,7 +334,7 @@ terraform destroy -var-file="dev.tfvars"
 
 ## 발표자료
 
-📄 프로젝트 발표 슬라이드: `./docs/presentation.pdf`
+[프로젝트 발표 슬라이드](./docs/presentation.pdf)
 
 ---
 
